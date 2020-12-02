@@ -34,6 +34,7 @@ fragLength:	fragLength.o   ../lib/libgab/utils.o   ../lib/libgab/gzstream/libgzs
 
 ../lib/libgab/utils.h:
 	rm -rfv ../lib/libgab/
+	mkdir ../lib/
 	mkdir ../lib/libgab/
 	git clone --depth 1 https://github.com/grenaud/libgab.git ../lib/libgab/
 
