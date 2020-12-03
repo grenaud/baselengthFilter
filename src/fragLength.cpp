@@ -12,7 +12,7 @@
 
 #include <sys/stat.h>
 #include <fcntl.h>
-#include "utils.h"
+#include "libgab.h"
 
 extern "C" {
     //#include "tabix.h"
